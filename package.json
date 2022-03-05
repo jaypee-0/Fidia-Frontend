@@ -1,7 +1,7 @@
 {
   "name": "fidia-nuxt-task",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "nuxt",
     "build": "nuxt build",
