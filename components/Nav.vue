@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-none">
     <div class="container-fluid px-0">
       <NuxtLink class="navbar-brand" to="/"
-        ><img src="~assets/svg-png-icons/content.png" alt="" /> Untitled
+        ><img src="~assets/svg-png-icons/Content.png" alt="" /> Untitled
         UI</NuxtLink
       >
       <button
