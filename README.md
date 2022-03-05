@@ -1,4 +1,5 @@
 # fidia-nuxt-task
+Deployed on netlify https://angry-wescoff-2c4f2c.netlify.app/
 
 ## Build Setup
 
