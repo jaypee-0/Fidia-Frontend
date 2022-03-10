@@ -1,5 +1,5 @@
 # fidia-nuxt-task
-Deployed on netlify https://angry-wescoff-2c4f2c.netlify.app/
+Website can be viewed <a href="https://angry-wescoff-2c4f2c.netlify.app/">here</a> 
 
 ## Build Setup
 
