@@ -1,4 +1,4 @@
-# Fidia frontend task available <a href="https://fidia-nuxt-frontend-task.netlify.app/">here</a>
+# Fidia frontend task available <p><a href="https://fidia-nuxt-frontend-task.netlify.app/">here</a></p>
 
 ## Build Setup
 
