@@ -3,17 +3,19 @@
     <table class="table border table-striped">
       <thead>
         <tr>
-          <th class="px-5">
-            <input class="px-2 form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-            Company<img
+          <th>
+            <input class="ml-2 mt-1 form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+            <span class="pl-5">
+            Company
+            </span><img
               class="px-2"
               src="~assets/svg-png-icons/down-arrow.svg"
               alt=""
             />
           </th>
-          <th>License use</th>
+          <th class="license">License <span class="d-none d-md-inline">use</span></th>
           <th>Status</th>
-          <th>Users</th>
+          <th class="">Users</th>
           <th>About</th>
           <th></th>
         </tr>
@@ -21,8 +23,9 @@
       <tbody>
         <tr>
           <td class="d-flex py-2">
+            <input class="ml-2 mt-3 form-check-input" type="checkbox" value="" id="flexCheckDefault" />
             <img
-              class="px-3"
+              class="pr-3 pl-4"
               src="~assets/svg-png-icons/companies/catalog.svg"
               alt=""
             />
@@ -65,8 +68,9 @@
         </tr>
         <tr>
           <td class="d-flex py-2">
+            <input class="ml-2 mt-3 form-check-input" type="checkbox" value="" id="flexCheckDefault" />
             <img
-              class="px-3"
+              class="pr-3 pl-4"
               src="~assets/svg-png-icons/companies/circooles.svg"
               alt=""
             />
@@ -107,8 +111,9 @@
         </tr>
         <tr>
           <td class="d-flex py-2">
+            <input class="ml-2 mt-3 form-check-input" type="checkbox" value="" id="flexCheckDefault" />
             <img
-              class="px-3"
+              class="pr-3 pl-4"
               src="~assets/svg-png-icons/companies/cmdr.svg"
               alt=""
             />
@@ -149,8 +154,9 @@
         </tr>
         <tr>
           <td class="d-flex py-2">
+            <input class="ml-2 mt-3 form-check-input" type="checkbox" value="" id="flexCheckDefault" />
             <img
-              class="px-3"
+              class="pr-3 pl-4"
               src="~assets/svg-png-icons/companies/hourglass.svg"
               alt=""
             />
@@ -191,8 +197,9 @@
         </tr>
         <tr>
           <td class="d-flex py-2">
+            <input class="ml-2 mt-3 form-check-input" type="checkbox" value="" id="flexCheckDefault" />
             <img
-              class="px-3"
+              class="pr-3 pl-4"
               src="~assets/svg-png-icons/companies/layers.svg"
               alt=""
             />
@@ -233,8 +240,9 @@
         </tr>
         <tr>
           <td class="d-flex py-2">
+            <input class="ml-2 mt-3 form-check-input" type="checkbox" value="" id="flexCheckDefault" />
             <img
-              class="px-3"
+              class="pr-3 pl-4"
               src="~assets/svg-png-icons/companies/quotient.svg"
               alt=""
             />
@@ -275,8 +283,9 @@
         </tr>
         <tr>
           <td class="d-flex py-2">
+            <input class="ml-2 mt-3 form-check-input" type="checkbox" value="" id="flexCheckDefault" />
             <img
-              class="px-3"
+              class="pr-3 pl-4"
               src="~assets/svg-png-icons/companies/sisyphus.svg"
               alt=""
             />
@@ -387,5 +396,42 @@ th {
   color: #667085;
   font-size: 14px;
   font-weight: 400;
+}
+@media (max-width: 769px) {
+  tr th:nth-child(3) {
+    display: none;
+  }
+  tr th:nth-child(6) {
+    display: none;
+  }
+  tr td:nth-child(3n+3){
+    display: none;    
+  }
+}
+@media (max-width: 568px) {
+  tr th:nth-child(3) {
+    display: none;
+  } 
+  tr th:nth-child(4) {
+    display: none;
+  } 
+  tr th:nth-child(5) {
+    display: none;
+  }
+  tr td:nth-child(5){
+    display: none;    
+  }
+  tr td:nth-child(6){
+    display: none;    
+  }
+  .license {
+    padding-right: 0;
+  }
+  .tr td {
+    padding: 0 0.2rem!important;
+  }
+  input[type="checkbox"] {
+    margin-left: 0.1rem!important;
+  } 
 }
 </style>

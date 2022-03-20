@@ -1,50 +1,11 @@
 <template>
-  <div class="row card rounded-lg border m-0 shadow-md width-32">
+  <div class="row card rounded-lg border m-0 shadow-md mbottom width-32">
     <div class="d-flex justify-content-between w-100">
       <h5 class="fs-16">{{ dashboard.title }}</h5>
       <span
-        ><svg
-          version="1.1"
-          id="Layer_1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          x="0px"
-          y="0px"
-          viewBox="0 0 290 290"
-          style="enable-background: new 0 0 290 290"
-          width="50"
-          height="20"
-          xml:space="preserve"
-        >
-          <g>
-            <rect
-              x="110"
-              fill="gray"
-              style="cursor: pointer"
-              y="220"
-              width="70"
-              rx="150"
-              height="70"
-            />
-            <rect
-              x="110"
-              fill="gray"
-              style="cursor: pointer"
-              y="110"
-              width="70"
-              rx="150"
-              height="70"
-            />
-            <rect
-              x="110"
-              fill="gray"
-              style="cursor: pointer"
-              width="70"
-              rx="150"
-              height="70"
-            />
-          </g></svg
-      ></span>
+        >        
+        <img src="../assets/svg-png-icons/3dots.png" alt="">        
+      </span>
     </div>
     <div class="d-flex justify-content-between w-100 align-items-end">
       <div class="">
@@ -158,26 +119,26 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 
-.fs-2{
+.fs-2 {
   font-size: 32px;
 }
-.fs-16{
+.fs-16 {
   font-size: 16px;
   font-weight: 500;
 }
-.width-32{
+.width-32 {
   width: 32%;
 }
 .fw-bold {
   font-weight: 600;
   line-height: 44px;
   font-style: normal;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
-.f-inter{
-  font-family: 'Inter', sans-serif;
+.f-inter {
+  font-family: "Inter", sans-serif;
 }
 .graph {
   background: linear-gradient(
@@ -210,6 +171,17 @@ export default {
   .arrow {
     width: 11px;
     height: 11px;
+  }
+  .width-32 {
+  width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .width-32 {
+  width: 100%;
+  }
+  .mbottom {
+    margin-bottom: 0.8rem!important;
   }
 }
 </style>

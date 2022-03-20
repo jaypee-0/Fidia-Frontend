@@ -2,11 +2,11 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-none">
     <div class="container-fluid px-0">
       <NuxtLink class="navbar-brand" to="/"
-        ><img src="~assets/svg-png-icons/Content.png" alt="" /> Untitled
+        ><img src="~assets/svg-png-icons/content.png" alt="" /> Untitled
         UI</NuxtLink
       >
       <button
-        class="navbar-toggler"
+        class="navbar-toggler border-0"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
@@ -63,7 +63,7 @@
             >
           </li>
           <li class="nav-item active">
-            <NuxtLink to="/" class="nav-link"
+            <NuxtLink to="/my-items" class="nav-link"
               ><img src="~assets/images/Avatar-1.png" alt="" /><span
                 class="sr-only"
                 >(current)</span
@@ -85,7 +85,6 @@ export default {};
   color: #101828;
   font-weight: 900;
 }
-
 .navbar ul li {
   font-size: 16px;
 }

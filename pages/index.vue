@@ -1,14 +1,17 @@
 <template>
-  <div class="container ">
+  <div class="container-xl">
     <Nav />
     <Nav2nd />
-     <div class="d-flex mb-5 justify-content-between px-3">
+    <div class="my-4">
+      <Welcome />
+    </div>
+    <div class="d-flex flex-column flex-md-row mb-3 justify-content-between px-3">
         <Dashboard
           v-for="dashboard in dashboards"
           :key="dashboard.id" 
           :dashboard="dashboard"
         />
-      </div>
+    </div>    
     <SearchParameters />
     <DashboardDisplay />
     <CompanyList />
@@ -29,8 +32,13 @@ export default {
 
 <style scoped>
   @media (min-width: 1440px) {
-    .container {
+    .container-xl{
       max-width: 1300px;
+    }
+  }
+  @media (max-width: 320px) {
+    .container-xl {
+      padding: 0px;
     }
   }
   

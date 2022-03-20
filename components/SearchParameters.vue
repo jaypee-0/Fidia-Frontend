@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-none">
-    <div class="container-fluid px-0">
+    <div class="container-fluid px-0 justify-content-between">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item active">
             <NuxtLink to="/" class="nav-link"
@@ -16,15 +16,15 @@
               ><span class="sr-only">(current)</span></NuxtLink
             >
           </li>
-          <li class="nav-item active">
+          <li class="w-100-small nav-item active">
             <NuxtLink to="/" class="nav-link"
-              ><button class="px-3 btn upgrade">
+              ><button class="w-100-small px-3 btn upgrade">
                 <img class="pr-2 pb-1" src="~assets/svg-png-icons/filter.png" alt="" />More filters</button
               ><span class="sr-only">(current)</span></NuxtLink
             >
           </li>
         </ul>
-        <form class="d-flex ml-auto">
+        <form class="w-100-small">
         <div class="search-icon">
           <input
             class="form-control me-2"
@@ -68,6 +68,11 @@ export default {};
   .search-icon input {
     flex-direction: row;
   width: 100%;
+  }
+}
+@media (max-width: 578px) {
+  .w-100-small{
+    width: 100%;
   }
 }
 </style>
