@@ -63,7 +63,7 @@
             >
           </li>
           <li class="nav-item active">
-            <NuxtLink to="/my-items" class="nav-link"
+            <NuxtLink to="/" class="nav-link"
               ><img src="~assets/images/Avatar-1.png" alt="" /><span
                 class="sr-only"
                 >(current)</span
